@@ -1,28 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --tc-bg-orange: #F78B00;
+  --tc-bg-white: #FFFFFF;
+  --tc-card-bg-gray: #A7A7A7;
+  --tc-btn-blue: #00285F;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --tc-font-blue: #00285F;
+  --tc-font-black: #000000;
+  --tc-font-gray: #545858; 
+  --tc-font-white: #FFFFFF;
 }
 
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  font-family: Roboto;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html, body {
+  background-color: var(--tc-bg-white);
+}
+
+main {
+  padding: 0 20px;
+}
+
+/* Generic Styles */
+
+.tc-container {
+  width: 100%;
+  max-width: 980px;
+  align-items: center;
+  padding: 0 20px;
 }
