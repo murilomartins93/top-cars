@@ -1,3 +1,10 @@
 #catalog-cards-section {
   padding: 40px 0;
 }
+
+.tc-catalog-cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding-top: 20px;
+}

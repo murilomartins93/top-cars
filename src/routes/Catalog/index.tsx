@@ -1,6 +1,7 @@
 import "./styles.css";
 import Header from "../../components/Header";
 import SearchBar from "../../components/SearchBar";
+import CatalogCard from "../../components/CatalogCard"
 
 function Catalog() {
   return (
@@ -9,7 +10,14 @@ function Catalog() {
       <main>
         <section id="catalog-cards-section" className="tc-container">
           <SearchBar />
-          <h1>Test</h1>
+          <div className="tc-catalog-cards">
+            <CatalogCard />
+            <CatalogCard />
+            <CatalogCard />
+            <CatalogCard />
+            <CatalogCard />
+            <CatalogCard />
+          </div>
         </section>
       </main>
     </>

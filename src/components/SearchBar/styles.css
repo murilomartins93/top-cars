@@ -12,7 +12,7 @@
   font-size: 14px;
   color: var(--tc-font-gray);
   border: 1px solid var(--tc-form-border-gray);
-  border-radius: 4px 0 0 4px;
+  border-radius: 5px 0 0 5px;
 }
 
 .tc-search-bar input:focus {
@@ -32,5 +32,5 @@
   color: var(--tc-font-white);
   border: 1px solid var(--tc-btn-blue);
   border-left: none;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 5px 5px 0;
 }

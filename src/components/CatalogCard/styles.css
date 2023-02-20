@@ -1,0 +1,36 @@
+.tc-catalog-card {
+  background-color: var(--tc-card-bg-gray);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  width: 100%;
+  max-height: 350px;
+}
+
+.tc-catalog-card img {
+  max-width: 220px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.tc-catalog-card h1 {
+  color: var(--tc-font-black);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tc-catalog-card p {
+  color: var(--tc-font-gray);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  font-style: italic;
+  text-align: start;
+  margin-bottom: 40px;
+}
