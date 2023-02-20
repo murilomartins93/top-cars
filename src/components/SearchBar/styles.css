@@ -28,6 +28,7 @@
   padding: 0 10px;
   font-size: 14px;
   font-weight: 700;
+  text-transform: uppercase;
   background-color: var(--tc-btn-blue);
   color: var(--tc-font-white);
   border: 1px solid var(--tc-btn-blue);
