@@ -9,6 +9,10 @@
   border-radius: 5px;
   text-align: center;
   padding: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .tc-btn:hover {
@@ -16,4 +20,5 @@
   background-color: var(--tc-bg-white);
   border: 1px solid var(--tc-btn-blue);
 }
+
 

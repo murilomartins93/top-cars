@@ -34,4 +34,11 @@
   border: 1px solid var(--tc-btn-blue);
   border-left: none;
   border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.tc-search-bar button[type="submit"]:hover {
+  color: var(--tc-font-blue);
+  background-color: var(--tc-bg-white);
+  border: 1px solid var(--tc-btn-blue);
 }
