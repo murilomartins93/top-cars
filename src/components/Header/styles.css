@@ -1,14 +1,13 @@
 .tc-header {
-    background-color: var(--tc-bg-orange);
+  background-color: var(--tc-bg-orange);
 }
 
 .tc-nav {
-    padding: 20px 20px;
+  padding: 20px 20px;
 }
 
 .tc-nav h1 {
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--tc-font-blue);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--tc-font-blue);
 }
-  

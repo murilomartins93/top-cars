@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 :root {
-  --tc-bg-orange: #F78B00;
-  --tc-bg-white: #FFFFFF;
-  --tc-card-bg-gray: #A7A7A7;
-  --tc-btn-blue: #00285F;
+  --tc-bg-orange: #f78b00;
+  --tc-bg-white: #ffffff;
 
-  --tc-font-blue: #00285F;
+  --tc-card-bg-gray: #a7a7a7;
+  --tc-form-border-gray: #a7a7a7;
+  --tc-placeholder-font-gray: #a7a7a7;
+
+  --tc-btn-blue: #00285f;
+
+  --tc-font-blue: #00285f;
   --tc-font-black: #000000;
-  --tc-font-gray: #545858; 
-  --tc-font-white: #FFFFFF;
+  --tc-font-gray: #545858;
+  --tc-font-white: #ffffff;
 }
 
 * {
@@ -19,17 +23,21 @@
   font-family: Roboto;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
   color: unset;
 }
 
-html, body {
+html,
+body {
   background-color: var(--tc-bg-white);
 }
 
 main {
-  padding: 0 20px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Generic Styles */
@@ -39,4 +47,12 @@ main {
   max-width: 980px;
   align-items: center;
   padding: 0 20px;
+}
+
+@media (min-width: 576px) {
+
+  main {
+    padding: 0 20px;
+  }
+
 }
